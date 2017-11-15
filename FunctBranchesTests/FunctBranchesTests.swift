@@ -22,9 +22,26 @@ class FunctBranchesTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+       
+        let gg :Int = 900
+        let po : [Double] = [50,60,70]
+        
+        let modi : ([Double]) -> [Double] = { arr in Array(arr)}
+            
+          let r = Reader(modi)
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+    
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
