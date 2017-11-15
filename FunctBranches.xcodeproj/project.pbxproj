@@ -13,6 +13,7 @@
 		640FF2801FBAFE860032D404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640FF27F1FBAFE860032D404 /* Assets.xcassets */; };
 		640FF2831FBAFE860032D404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640FF2811FBAFE860032D404 /* LaunchScreen.storyboard */; };
 		640FF28E1FBAFE860032D404 /* FunctBranchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF28D1FBAFE860032D404 /* FunctBranchesTests.swift */; };
+		640FF2E41FBCD0730032D404 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 640FF2E31FBCD0730032D404 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		640FF2891FBAFE860032D404 /* FunctBranchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctBranchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640FF28D1FBAFE860032D404 /* FunctBranchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctBranchesTests.swift; sourceTree = "<group>"; };
 		640FF28F1FBAFE860032D404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640FF2E31FBCD0730032D404 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		640FF2771FBAFE860032D404 /* FunctBranches */ = {
 			isa = PBXGroup;
 			children = (
+				640FF2E31FBCD0730032D404 /* Sources */,
 				640FF2781FBAFE860032D404 /* AppDelegate.swift */,
 				640FF27A1FBAFE860032D404 /* ViewController.swift */,
 				640FF27C1FBAFE860032D404 /* Main.storyboard */,
@@ -182,6 +185,7 @@
 				640FF2831FBAFE860032D404 /* LaunchScreen.storyboard in Resources */,
 				640FF2801FBAFE860032D404 /* Assets.xcassets in Resources */,
 				640FF27E1FBAFE860032D404 /* Main.storyboard in Resources */,
+				640FF2E41FBCD0730032D404 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
