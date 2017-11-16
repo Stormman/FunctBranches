@@ -34,9 +34,11 @@ class listTEST: XCTestCase {
         
         
         let stToi : (Int) -> String = {l in String(l)}
+        let sttost : (String) -> Double = {st in Double(st + ".12")!}
         
         
-        let fp =  stToi <^> lis
+        
+        let fp =  sttost <^> stToi <^> lis
         
         
         //monads
