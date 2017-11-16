@@ -1,5 +1,5 @@
 //
-//  operatorsTest.swift
+//  listTEST.swift
 //  FunctBranchesTests
 //
 //  Created by Antonio Muñoz Sánchez on 16/11/2017.
@@ -7,10 +7,9 @@
 //
 
 import XCTest
-
 @testable import FunctBranches
 
-class operatorsTest: XCTestCase {
+class listTEST: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,16 +23,26 @@ class operatorsTest: XCTestCase {
     
     func testExample() {
         
-        let f1: (Int) -> String = {l in String(l)}
-        let f2: (String) -> (Int,String) = {st in (st.count,st + "p o")}
+        let arr = [45,45,34,12,11,1,2,3,4,5]
+        let lis = List(fromArray: arr)
         
-        let wo = f1 <| 1
-        let wi = f2 • f1
+        let el = lis[1]
+        
+        let rep = List.replicate(100, value: 0)
+        
+        let i = rep.inits
         
         
-        let por = [12,34,45,56]
+        let stToi : (Int) -> String = {l in String(l)}
         
-        let ff =  {$0 * 2} <^> por
+        
+        let fp =  stToi <^> lis
+        
+        
+        //monads
+        
+        
+        
         
         
         
