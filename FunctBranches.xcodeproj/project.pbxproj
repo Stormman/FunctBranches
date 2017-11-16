@@ -59,6 +59,8 @@
 		640FF3431FBCD8B10032D404 /* TupleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF3131FBCD8010032D404 /* TupleExt.swift */; };
 		640FF3441FBCD8B10032D404 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF3061FBCD7FE0032D404 /* Unit.swift */; };
 		640FF3451FBCD8B10032D404 /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF30C1FBCD8000032D404 /* Writer.swift */; };
+		640FF3471FBCEDDB0032D404 /* DictionaryExtTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF3461FBCEDDB0032D404 /* DictionaryExtTEST.swift */; };
+		640FF3491FBD59DB0032D404 /* operatorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF3481FBD59DB0032D404 /* operatorsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,8 @@
 		640FF3151FBCD8020032D404 /* CharacterExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterExt.swift; sourceTree = "<group>"; };
 		640FF3161FBCD8020032D404 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		640FF3171FBCD8020032D404 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		640FF3461FBCEDDB0032D404 /* DictionaryExtTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtTEST.swift; sourceTree = "<group>"; };
+		640FF3481FBD59DB0032D404 /* operatorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operatorsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 			children = (
 				640FF28D1FBAFE860032D404 /* FunctBranchesTests.swift */,
 				640FF28F1FBAFE860032D404 /* Info.plist */,
+				640FF3461FBCEDDB0032D404 /* DictionaryExtTEST.swift */,
+				640FF3481FBD59DB0032D404 /* operatorsTest.swift */,
 			);
 			path = FunctBranchesTests;
 			sourceTree = "<group>";
@@ -409,6 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				640FF28E1FBAFE860032D404 /* FunctBranchesTests.swift in Sources */,
+				640FF3491FBD59DB0032D404 /* operatorsTest.swift in Sources */,
+				640FF3471FBCEDDB0032D404 /* DictionaryExtTEST.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

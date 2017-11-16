@@ -1,15 +1,16 @@
 //
-//  FunctBranchesTests.swift
+//  operatorsTest.swift
 //  FunctBranchesTests
 //
-//  Created by Antonio Muñoz Sánchez on 14/11/2017.
+//  Created by Antonio Muñoz Sánchez on 16/11/2017.
 //  Copyright © 2017 Antonio Muñoz Sánchez. All rights reserved.
 //
 
 import XCTest
+
 @testable import FunctBranches
 
-class FunctBranchesTests: XCTestCase {
+class operatorsTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,26 +23,15 @@ class FunctBranchesTests: XCTestCase {
     }
     
     func testExample() {
-       
-        let gg :Int = 900
-        let po : [Double] = [50,60,70]
         
-        let modi : ([Double]) -> [Double] = { arr in Array([arr.first!])}
-            
-          let r = Reader(modi)
-            
-            let wp = r.runReader([4.3,5,6,7.8])
-            
-            
-            let rp = 900000
-            
-            
-        }
+        let f1: (Int) -> String = {l in String(l)}
+        let f2: (String) -> (Int,String) = {st in (st.count,st + "p o")}
+        
+        let wo = f1 <| 1
+        let wi = f2 • f1
         
         
-        
-        
-    
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

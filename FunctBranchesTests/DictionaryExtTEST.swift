@@ -1,15 +1,15 @@
 //
-//  FunctBranchesTests.swift
+//  DictionaryExtTEST.swift
 //  FunctBranchesTests
 //
-//  Created by Antonio Muñoz Sánchez on 14/11/2017.
+//  Created by Antonio Muñoz Sánchez on 15/11/2017.
 //  Copyright © 2017 Antonio Muñoz Sánchez. All rights reserved.
 //
 
 import XCTest
 @testable import FunctBranches
 
-class FunctBranchesTests: XCTestCase {
+class DictionaryExtTEST: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,26 +22,32 @@ class FunctBranchesTests: XCTestCase {
     }
     
     func testExample() {
-       
-        let gg :Int = 900
-        let po : [Double] = [50,60,70]
         
-        let modi : ([Double]) -> [Double] = { arr in Array([arr.first!])}
-            
-          let r = Reader(modi)
-            
-            let wp = r.runReader([4.3,5,6,7.8])
-            
-            
-            let rp = 900000
-            
-            
-        }
+        let dic = ["pepe" : 90.9 , "lolito": 12.34, "Antonio": 120.12, "Juana":4500.02]
+        
+        let f : (String) -> (Double) -> (Int,Int) = {st in {dou in   (st.count,Int(dou))   }}
+        
+        let funcu = uncurry(f)
+        
+        
+        let fguncurr : (String,Double) -> (Int) = { (st,ld) in st.count + Int(ld)     }
+        
+        let fcu = curry(fguncurr)
+        
+        let over = dic.mapWithKey(fcu)
         
         
         
+        let dicOp = ["p":nil, "l":90,"ko":12]
         
-    
+        let overd = dicOp.mapMaybe{$0}
+        
+        
+        let b = HCons(23, HCons("String", HNil()))
+        
+        let op = 9000
+        
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
