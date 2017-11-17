@@ -25,7 +25,7 @@ class COnstTEsts: XCTestCase {
     func testExample() {
         
         
-        let cf = Const<String,Int> ({return "pe"})
+        let cf = Const<String,Int> ({return "pe"}())
         
         
     }
