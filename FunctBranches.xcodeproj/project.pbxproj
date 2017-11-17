@@ -63,6 +63,7 @@
 		640FF3491FBD59DB0032D404 /* operatorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF3481FBD59DB0032D404 /* operatorsTest.swift */; };
 		640FF34B1FBD62AA0032D404 /* listTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF34A1FBD62AA0032D404 /* listTEST.swift */; };
 		640FF34D1FBD8C170032D404 /* Proxytests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF34C1FBD8C170032D404 /* Proxytests.swift */; };
+		640FF34F1FBE1F9A0032D404 /* COnstTEsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640FF34E1FBE1F9A0032D404 /* COnstTEsts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		640FF3481FBD59DB0032D404 /* operatorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operatorsTest.swift; sourceTree = "<group>"; };
 		640FF34A1FBD62AA0032D404 /* listTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listTEST.swift; sourceTree = "<group>"; };
 		640FF34C1FBD8C170032D404 /* Proxytests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxytests.swift; sourceTree = "<group>"; };
+		640FF34E1FBE1F9A0032D404 /* COnstTEsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COnstTEsts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				640FF3481FBD59DB0032D404 /* operatorsTest.swift */,
 				640FF34A1FBD62AA0032D404 /* listTEST.swift */,
 				640FF34C1FBD8C170032D404 /* Proxytests.swift */,
+				640FF34E1FBE1F9A0032D404 /* COnstTEsts.swift */,
 			);
 			path = FunctBranchesTests;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				640FF28E1FBAFE860032D404 /* FunctBranchesTests.swift in Sources */,
 				640FF34B1FBD62AA0032D404 /* listTEST.swift in Sources */,
 				640FF3491FBD59DB0032D404 /* operatorsTest.swift in Sources */,
+				640FF34F1FBE1F9A0032D404 /* COnstTEsts.swift in Sources */,
 				640FF34D1FBD8C170032D404 /* Proxytests.swift in Sources */,
 				640FF3471FBCEDDB0032D404 /* DictionaryExtTEST.swift in Sources */,
 			);
